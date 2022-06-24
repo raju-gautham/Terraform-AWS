@@ -1,6 +1,7 @@
 variable "accessKey" {}  
 variable "secretKey" {}
-variable "AWSRegion" {}
+variable "region" {}
+variable "profile" {}
 variable "instance_name" {
     type = string
     default = "testvm"
