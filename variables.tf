@@ -1,7 +1,5 @@
 variable "accessKey" {}  
 variable "secretKey" {}
-variable "region" {}
-variable "profile" {}
 variable "instance_name" {
     type = string
     default = "testvm"
