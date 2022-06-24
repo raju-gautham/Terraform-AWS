@@ -1,5 +1,3 @@
-variable "accessKey" {}  
-variable "secretKey" {}
 variable "instance_name" {
     type = string
     default = "testvm"
