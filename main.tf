@@ -1,8 +1,8 @@
 resource "aws_instance" "example" {
-    ami = "ami-0022f774911c1d690"
+    ami = "ami-052efd3df9dad4825"
     instance_type = "t2.nano"
-    subnet_id = "subnet-8de0fcc0"
-    key_name = "USEast1Linux"
+    subnet_id = "subnet-47632f6b"
+    key_name = "Linux"
   
     # user_data = <<-EOF
     #               #!/bin/bash
