@@ -1,5 +1,6 @@
 variable "accessKey" {}  
 variable "secretKey" {}
+variable "accountId" {}
 variable "instance_name" {
     type = string
   }
